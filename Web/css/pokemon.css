@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #333;
+}
+.tipo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #e53d33;
+    margin: 0;
+}
+.tipo-info img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+.tipo-info p {
+    font-size: 18px;
+    color: #000000;
+}
+.pokemon-item{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.pokemon-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.poke-imagen{
+    width: 150px;
+}
+.poke-presentacion{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+}
