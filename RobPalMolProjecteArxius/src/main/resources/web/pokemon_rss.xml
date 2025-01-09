@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss version="2.0">
+    <pokemons>
+        <title>informacióDelPokemon</title>
+        <pokemon>
+            <id>4</id>
+            <nom>Charmander</nom>
+            <id_tipus>[1]</id_tipus>
+            <descripcio>Un drac petit amb una cua flamant.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>37</id>
+            <nom>Vulpix</nom>
+            <id_tipus>[1]</id_tipus>
+            <descripcio>Una guineu amb sis cues que pot escopir foc.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>7</id>
+            <nom>Squirtle</nom>
+            <id_tipus>[2]</id_tipus>
+            <descripcio>Una petita tortuga capaç de llançar aigua per defensar-se.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>54</id>
+            <nom>Psyduck</nom>
+            <id_tipus>[2]</id_tipus>
+            <descripcio>Un ànec amb mal de cap crònic que utilitza atacs psíquics.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>1</id>
+            <nom>Bulbasaur</nom>
+            <id_tipus>[3]</id_tipus>
+            <descripcio>Un Pokémon planta amb un bulb a l’esquena que creix amb ell.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>43</id>
+            <nom>Oddish</nom>
+            <id_tipus>[3]</id_tipus>
+            <descripcio>Un Pokémon que s’amaga al terra durant el dia i surt de nit.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>25</id>
+            <nom>Pikachu</nom>
+            <id_tipus>[4]</id_tipus>
+            <descripcio>Ratolí elèctric famós per la seva potència en els combats.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>74</id>
+            <nom>Geodude</nom>
+            <id_tipus>[5]</id_tipus>
+            <descripcio>Un Pokémon roc que es camufla entre les pedres.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>95</id>
+            <nom>Onix</nom>
+            <id_tipus>[5]</id_tipus>
+            <descripcio>Un cuc gegant de roca, fort en terrenys de muntanya.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>27</id>
+            <nom>Sandshrew</nom>
+            <id_tipus>[6]</id_tipus>
+            <descripcio>Un Pokémon capaç de cavar-se un refugi en qualsevol terreny.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>50</id>
+            <nom>Diglett</nom>
+            <id_tipus>[6]</id_tipus>
+            <descripcio>Un Pokémon petit que viu sota terra i rarament es veu complet.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>87</id>
+            <nom>Dewgong</nom>
+            <id_tipus>[7]</id_tipus>
+            <descripcio>Un Pokémon marí cobert de pell blanca per resistir el fred.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>91</id>
+            <nom>Cloyster</nom>
+            <id_tipus>[7]</id_tipus>
+            <descripcio>Viu en una closca dura que el protegeix en combat.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>16</id>
+            <nom>Pidgey</nom>
+            <id_tipus>[8]</id_tipus>
+            <descripcio>Un ocell que viu en zones rurals i urbanes.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>41</id>
+            <nom>Zubat</nom>
+            <id_tipus>[8]</id_tipus>
+            <descripcio>Un Pokémon que caça amb ecos com els ratpenats.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>56</id>
+            <nom>Mankey</nom>
+            <id_tipus>[9]</id_tipus>
+            <descripcio>Un mico molt agressiu que es torna violent ràpidament.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>66</id>
+            <nom>Machop</nom>
+            <id_tipus>[9]</id_tipus>
+            <descripcio>Un Pokémon lluitador amb una força impressionant per la seva mida.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>23</id>
+            <nom>Ekans</nom>
+            <id_tipus>[10]</id_tipus>
+            <descripcio>Un Pokémon serp que utilitza el verí per paralitzar les seves víctimes.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>88</id>
+            <nom>Koffing</nom>
+            <id_tipus>[10]</id_tipus>
+            <descripcio>Un Pokémon que llença gasos tòxics per a defensar-se.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>10</id>
+            <nom>Caterpie</nom>
+            <id_tipus>[11]</id_tipus>
+            <descripcio>Un petit Pokémon que és fàcil de trobar en zones boscoses.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>13</id>
+            <nom>Weedle</nom>
+            <id_tipus>[11]</id_tipus>
+            <descripcio>Un Pokémon insecte amb un agulló tòxic per a defensar-se.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>63</id>
+            <nom>Abra</nom>
+            <id_tipus>[12]</id_tipus>
+            <descripcio>Un Pokémon psíquic que té la capacitat de teletransportar-se.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>96</id>
+            <nom>Drowzee</nom>
+            <id_tipus>[12]</id_tipus>
+            <descripcio>Un Pokémon psíquic que provoca somnis als altres Pokémon.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>92</id>
+            <nom>Gastly</nom>
+            <id_tipus>[13]</id_tipus>
+            <descripcio>Un Pokémon fantasma que s'alimenta de l'energia vital de les seves víctimes.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>93</id>
+            <nom>Haunter</nom>
+            <id_tipus>[13]</id_tipus>
+            <descripcio>Un Pokémon més potent que Gastly, capaç de fer desaparèixer les seves víctimes.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>147</id>
+            <nom>Dratini</nom>
+            <id_tipus>[14]</id_tipus>
+            <descripcio>Un Pokémon drac que evoluciona en un drac poderós.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>148</id>
+            <nom>Dragonair</nom>
+            <id_tipus>[14]</id_tipus>
+            <descripcio>La forma evolutiva de Dratini, amb un poder increïble.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>35</id>
+            <nom>Jigglypuff</nom>
+            <id_tipus>[15]</id_tipus>
+            <descripcio>Un Pokémon que canta per adormir els seus enemics.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>39</id>
+            <nom>Wigglytuff</nom>
+            <id_tipus>[15]</id_tipus>
+            <descripcio>Un Pokémon que utilitza la seva veu per encantar els altres.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>82</id>
+            <nom>Magneton</nom>
+            <id_tipus>[16]</id_tipus>
+            <descripcio>Un Pokémon format per tres Magnemites que s'uneixen.</descripcio>
+        </pokemon>
+        <pokemon>
+            <id>81</id>
+            <nom>Magnemite</nom>
+            <id_tipus>[4, 16]</id_tipus>
+            <descripcio>Un Pokémon magnètic capaç de generar camps elèctrics.</descripcio>
+        </pokemon>
+    </pokemons>
+</rss>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<head>
+    <title th:text="'Tipus de Pokémon - ' + ${siteName}"></title>
+    <link rel="stylesheet"  th:href="@{../css/index.css}">
+</head>
+<body>
+
+<h1 th:text="|Pokémon registrats en la pokedex - ${siteName}|"></h1>
+
+<div class="tipos-container">
+    <div th:each="tipus : ${tipusPokemon}">
+        <div class="tipo-card" >
+            <a th:href="@{${tipus.nom} + '.html'}">
+                <h3 th:text="${tipus.nom}"></h3>
+            <p><strong>Debilitats:</strong>
+                <span th:each="debilitat : ${tipus.debilitats}" th:text="${debilitat} + ', '"> </span>
+            </p>
+            <p><strong>Ventages:</strong>
+                <span th:each="avantatge : ${tipus.avantatges}" th:text="${avantatge} + ', '"> </span>
+            </p>
+            </a>
+            <img th:src="${tipus.foto}" th:href="@{${tipus.nom} + '.html'}" />
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "tipus_pokemon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "nom": {
+            "type": "string"
+          },
+          "debilitats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "avantatges": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "foto": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["id", "nom", "debilitats", "avantatges", "foto"]
+      }
+    },
+    "pokemons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "nom": {
+            "type": "string"
+          },
+          "id_tipus": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "descripcio": {
+            "type": "string"
+          },
+          "foto": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["id", "nom", "id_tipus", "descripcio", "foto"]
+      }
+    }
+  },
+  "required": ["tipus_pokemon", "pokemons"]
+}

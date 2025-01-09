@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<head>
+    <title th:text="'Tipus de Pokmon: ' + ${tipus.nom}"></title>
+    <link rel="stylesheet"  th:href="@{../css/pokemon.css}">
+</head>
+<body class="body">
+
+<h1 th:text="'Detalls del tipus Pokeémon: ' + ${tipus.nom}"></h1>
+
+<div class="tipo-info">
+    <p></p>
+    <img th:src="${tipus.foto}"/>
+    <p><strong>Nom:</strong> <span th:text="${tipus.nom}"></span></p>
+    <p><strong>Debilitats:</strong>
+        <span th:each="debilitat, iter : ${tipus.debilitats}">
+            <span th:text="${debilitat}"></span><span th:if="${!iter.last}">, </span>
+        </span>
+    </p>
+    <p><strong>Ventajas:</strong>
+        <span th:each="avantatge, iter : ${tipus.avantatges}">
+            <span th:text="${avantatge}"></span><span th:if="${!iter.last}">, </span>
+        </span>
+    </p>
+</div>
+<h2 class="poke-presentacion">Pokémon de tipus <span th:text="${tipus.nom}"></span>:</h2>
+<div class="pokemon-list">
+    <p></p>
+    <div th:each="pokemon : ${pokemons}" class="pokemon-item">
+        <img class="poke-imagen" th:src="${pokemon.foto}"/>
+        <p><strong>Nom:</strong> <span th:text="${pokemon.nom}"></span></p>
+        <p><strong>Número de la Pokédex:</strong> <span th:text="${pokemon.id}"></span></p>
+        <p><strong>Descripció:</strong> <span th:text="${pokemon.descripcio}"></span></p>
+    </div>
+</div>
+
+</body>
+</html>
